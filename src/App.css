@@ -1,0 +1,38 @@
+/* App.css */
+:root {
+  --bg-black: #0a0a0a;
+  --bg-dark-gray: #1a1a1a;
+  --accent-green: #00e676;
+  --text-main: #ffffff;
+  --text-muted: #b3b3b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-black);
+  color: var(--text-main);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Common Section Layout */
+.section-container {
+  padding: 120px 20px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  color: var(--accent-green);
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
