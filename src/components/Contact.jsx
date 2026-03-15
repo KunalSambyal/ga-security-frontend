@@ -86,7 +86,7 @@ function Contact() {
           <h4 style={labelStyle}>Mobile</h4>
           <a
             href="tel:+918164773504"
-            style={{ linkStyle, marginBottom: "3px", textDecoration: "none" }}
+            style={{ ...linkStyle, marginBottom: "3px" }}
             onMouseOver={(e) => (e.target.style.color = "var(--accent-green)")}
             onMouseOut={(e) => (e.target.style.color = "var(--text-muted)")}
           >
