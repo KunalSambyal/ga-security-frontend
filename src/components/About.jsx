@@ -121,17 +121,18 @@ function About() {
         About GA Security
       </h2>
 
-      <pre
+      <div
         style={{
           fontWeight: "bold",
           fontSize: "1.2rem",
           color: "var(--text-main)",
           marginBottom: "20px",
+          lineHeight: "1.6",
         }}
       >
-        Director: Amandeep Singh &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        MD: Gurjeet Kaur
-      </pre>
+        <div>Director: Amandeep Singh</div>
+        <div>MD: Gurjeet Kaur</div>
+      </div>
 
       <p
         style={{
