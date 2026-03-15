@@ -111,7 +111,6 @@ function About() {
 
   return (
     <section id="about" style={sectionContainerStyle}>
-      {/* Reduced bottom margin here to 10px so the subtitle sits closer */}
       <h2
         style={{
           color: "var(--accent-green)",
@@ -122,7 +121,6 @@ function About() {
         About GA Security
       </h2>
 
-      {/* --- NEW LEADERSHIP LINE ADDED HERE --- */}
       <p
         style={{
           fontWeight: "bold",
@@ -147,7 +145,6 @@ function About() {
         the gap between standard guarding and elite protection.
       </p>
 
-      {/* The 3-Image Auto Carousel */}
       <div style={carouselWrapper}>
         <button style={arrowStyle} onClick={prevSlide}>
           &#10094;

@@ -40,19 +40,17 @@ function Contact() {
     fontSize: "1.1rem",
   };
 
-  // Kept the original text style for the address
   const textStyle = {
     color: "var(--text-muted)",
     marginBottom: "25px",
     fontSize: "0.95rem",
   };
 
-  // Added a specific style for our new clickable links
   const linkStyle = {
     color: "var(--text-muted)",
     marginBottom: "25px",
     fontSize: "0.95rem",
-    textDecoration: "none", // Removes the default blue underline
+    textDecoration: "none",
     display: "inline-block",
   };
 
@@ -76,7 +74,6 @@ function Contact() {
           </h2>
 
           <h4 style={labelStyle}>Email</h4>
-          {/* mailto: makes it open the default email app */}
           <a
             href="mailto:rakeshkumar82808@gmail.com"
             style={linkStyle}
@@ -87,7 +84,6 @@ function Contact() {
           </a>
 
           <h4 style={labelStyle}>Mobile</h4>
-          {/* tel: makes it open the phone dialer */}
           <a
             href="tel:+919463941866"
             style={linkStyle}

@@ -16,11 +16,11 @@ function LoginModal({ isOpen, onClose }) {
     left: 0,
     width: "100vw",
     height: "100vh",
-    backgroundColor: "rgba(0, 0, 0, 0.8)", // Dark background blur effect
+    backgroundColor: "rgba(0, 0, 0, 0.8)",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    zIndex: 2000, // Make sure this is on top of everything
+    zIndex: 2000,
   };
 
   const modalStyle = {
@@ -29,7 +29,7 @@ function LoginModal({ isOpen, onClose }) {
     borderRadius: "8px",
     width: "100%",
     maxWidth: "400px",
-    borderTop: "4px solid var(--accent-green)", // Nice green accent on top
+    borderTop: "4px solid var(--accent-green)",
     position: "relative",
   };
 
