@@ -75,7 +75,7 @@ function Contact() {
 
           <h4 style={labelStyle}>Email</h4>
           <a
-            href="mailto:rakeshkumar82808@gmail.com"
+            href="mailto:asgsp@gmail.com"
             style={linkStyle}
             onMouseOver={(e) => (e.target.style.color = "var(--accent-green)")}
             onMouseOut={(e) => (e.target.style.color = "var(--text-muted)")}
@@ -85,12 +85,20 @@ function Contact() {
 
           <h4 style={labelStyle}>Mobile</h4>
           <a
-            href="tel:+919463941866"
-            style={linkStyle}
+            href="tel:+918164773504"
+            style={{ linkStyle, marginBottom: "3px", textDecoration: "none" }}
             onMouseOver={(e) => (e.target.style.color = "var(--accent-green)")}
             onMouseOut={(e) => (e.target.style.color = "var(--text-muted)")}
           >
             +91 8164773504
+          </a>
+          <a
+            href="tel:+919478709140"
+            style={linkStyle}
+            onMouseOver={(e) => (e.target.style.color = "var(--accent-green)")}
+            onMouseOut={(e) => (e.target.style.color = "var(--text-muted)")}
+          >
+            +91 9478709140
           </a>
 
           <h4 style={labelStyle}>Office Location</h4>
