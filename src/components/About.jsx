@@ -129,8 +129,8 @@ function About() {
           marginBottom: "20px",
         }}
       >
-        Director: Amandeep Singh &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; MD:
-        Gurjeet Kaur
+        Director: Amandeep Singh &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+        MD: Gurjeet Kaur
       </pre>
 
       <p
