@@ -85,9 +85,9 @@ function LoginModal({ isOpen, onClose }) {
         <h2
           style={{ textAlign: "center", marginBottom: "10px", color: "white" }}
         >
-          Admin Portal
+          Comming Soon!
         </h2>
-        <p
+        {/* <p
           style={{
             textAlign: "center",
             color: "var(--text-muted)",
@@ -124,7 +124,7 @@ function LoginModal({ isOpen, onClose }) {
           <button type="submit" style={buttonStyle}>
             Secure Login
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );

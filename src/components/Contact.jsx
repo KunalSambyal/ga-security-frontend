@@ -80,7 +80,7 @@ function Contact() {
             onMouseOver={(e) => (e.target.style.color = "var(--accent-green)")}
             onMouseOut={(e) => (e.target.style.color = "var(--text-muted)")}
           >
-            asgsp@gmail.com@gmail.com
+            asgsp@gmail.com
           </a>
 
           <h4 style={labelStyle}>Mobile</h4>
