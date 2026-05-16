@@ -69,7 +69,6 @@ This project helped me practice:
 - Add backend integration
 - Add contact form functionality
 - Improve animations and transitions
-- Deploy project online
 
 ---
 
