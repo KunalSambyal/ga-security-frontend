@@ -25,18 +25,6 @@ This project focuses on building a modern, responsive, and user-friendly interfa
 
 ---
 
-# Project Structure
-
-```text
-GA-Security/
-│
-├── src/
-├── public/
-├── package.json
-├── vite.config.js
-└── README.md
-```
-
 ---
 
 # How to Run the Project
